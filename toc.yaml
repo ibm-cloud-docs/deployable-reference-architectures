@@ -2,7 +2,7 @@
 toc:
   properties:
     subcollection: acme-test
-    display: hidden
+    navigation: hidden
     audience: solution
     content-type: reference-architecture
     href: /docs/acme-test
