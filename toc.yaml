@@ -1,17 +1,17 @@
 ---
 toc:
   properties:
-    subcollection: acme-test
+    subcollection: deployable-reference-architectures
     navigation: hidden
     audience: solution
     content-type: reference-architecture
-    href: /docs/acme-test
-    path: acme-test
-    label: Acme Test deployment guide
+    href: /docs
+    path: deployable-reference-architectures
+    label: Deployable reference architectures
 
   entries:
   - navgroup:
-      id: architectures
+      id: architecture
       topics:
       - terraform-module-repo/reference-architecture.md
       - terraform-module-different-repo/reference-architecture.md
