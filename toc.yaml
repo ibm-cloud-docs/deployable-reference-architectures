@@ -13,3 +13,4 @@ toc:
         topics:
           - terraform-module-repo/reference-architecture.md
           - terraform-module-different-repo/reference-architecture.md
+          - mock-module/reference-architecture.md
