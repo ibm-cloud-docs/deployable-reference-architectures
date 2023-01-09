@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: deployable-reference-architectures
@@ -8,10 +7,9 @@ toc:
     href: /docs
     path: deployable-reference-architectures
     label: Deployable reference architectures
-
   entries:
-  - navgroup:
-      id: architecture
-      topics:
-      - terraform-module-repo/reference-architecture.md
-      - terraform-module-different-repo/reference-architecture.md
+    - navgroup:
+        id: architecture
+        topics:
+          - terraform-module-repo/reference-architecture.md
+          - terraform-module-different-repo/reference-architecture.md
