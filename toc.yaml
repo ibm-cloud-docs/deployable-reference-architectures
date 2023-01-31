@@ -11,5 +11,4 @@ toc:
     - navgroup:
         id: architecture
         topics:
-          - terraform-module-repo/reference-architecture.md
           - mock-module/reference-architecture.md
