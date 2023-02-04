@@ -10,4 +10,5 @@ toc:
   entries:
     - navgroup:
         id: architecture
-        topics: []
+        topics:
+          - mock-module/reference-architecture.md
