@@ -4,7 +4,7 @@ toc:
     navigation: hidden
     audience: solution
     content-type: reference-architecture
-    href: /docs
+    href: /docs?tab=solutions
     path: deployable-reference-architectures
     label: Deployable reference architectures
   entries:
