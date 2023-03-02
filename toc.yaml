@@ -11,6 +11,5 @@ toc:
     - navgroup:
         id: architecture
         topics:
-          - mock-module/reference-architecture.md
           - >-
             terraform-ibm-powervs-infrastructure/standard/deploy-arch-ibm-pvs-inf-standard.md
