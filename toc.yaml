@@ -12,4 +12,6 @@ toc:
         id: architecture
         topics:
           - >-
-            terraform-ibm-powervs-infrastructure/standard/deploy-arch-ibm-pvs-inf-standard.md
+            terraform-ibm-powervs-infrastructure/extension/deploy-arch-ibm-pvs-inf-extension.md
+          - >-
+            terraform-ibm-powervs-infrastructure/full-stack/deploy-arch-ibm-pvs-inf-full-stack.md
