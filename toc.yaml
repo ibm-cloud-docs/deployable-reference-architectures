@@ -11,6 +11,7 @@ toc:
     - navgroup:
         id: architecture
         topics:
+          - terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
           - >-
             terraform-ibm-powervs-infrastructure/extension/deploy-arch-ibm-pvs-inf-extension.md
           - >-
