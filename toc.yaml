@@ -13,6 +13,7 @@ toc:
         topics:
           - terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp.md
+          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vpc-standard.md
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-quickstart.md
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
           - >-
