@@ -19,4 +19,6 @@ toc:
           - >-
             terraform-ibm-powervs-infrastructure/full-stack/deploy-arch-ibm-pvs-inf-full-stack.md
           - >-
+            terraform-ibm-powervs-infrastructure/quickstart/deploy-arch-ibm-pvs-inf-quickstart.md
+          - >-
             terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
