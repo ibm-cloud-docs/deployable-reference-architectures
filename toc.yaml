@@ -18,6 +18,7 @@ toc:
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-extension.md
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-quickstart.md
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
+          - terraform-ibm-mas/mas-architecture.md
           - >-
             terraform-ibm-powervs-infrastructure/extension/deploy-arch-ibm-pvs-inf-extension.md
           - >-
