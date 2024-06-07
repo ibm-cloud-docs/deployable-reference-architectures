@@ -20,13 +20,13 @@ toc:
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
           - terraform-ibm-mas/mas-architecture.md
           - >-
-            terraform-ibm-powervs-infrastructure/extension/deploy-arch-ibm-pvs-inf-extension.md
+            terraform-ibm-powervs-infrastructure/import/deploy-arch-ibm-pvs-inf-import.md
           - >-
-            terraform-ibm-powervs-infrastructure/full-stack/deploy-arch-ibm-pvs-inf-full-stack.md
+            terraform-ibm-powervs-infrastructure/standard-extend/deploy-arch-ibm-pvs-inf-standard-extend.md
           - >-
-            terraform-ibm-powervs-infrastructure/import-workspace/deploy-arch-ibm-pvs-inf-import-workspace.md
+            terraform-ibm-powervs-infrastructure/standard-plus-vsi/deploy-arch-ibm-pvs-inf-standard-plus-vsi.md
           - >-
-            terraform-ibm-powervs-infrastructure/quickstart/deploy-arch-ibm-pvs-inf-quickstart.md
+            terraform-ibm-powervs-infrastructure/standard/deploy-arch-ibm-pvs-inf-standard.md
           - >-
             terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
           - >-
