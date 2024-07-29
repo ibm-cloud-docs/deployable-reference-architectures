@@ -65,11 +65,7 @@ IBM Cloud Flow Logs for VPC enables the collection and storage of information ab
 
 ![Design requirements for VPC landing zone](heat-map-deploy-arch-slz-vpc-standard.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
 
-<!--
-TODO: Add the typical use case for the architecture.
-The use case might include the motivation for the architecture composition,
-business challenge, or target cloud environments.
--->
+
 ## Components
 {: #ra-vpc-components}
 
@@ -93,19 +89,6 @@ business challenge, or target cloud environments.
 | Load VPN configuration to simplify VPN setup | VPNs | VPN configuration is the responsibility of the customer | |
 {: caption="Table 2. Network security architecture decisions" caption-side="bottom"}
 
-<!--
-## Compliance
-{: #ra-vpc-compliance}
 
-TODO: Decide whether to include a compliance section, and if so, add that information
 
-_Optional section._ Feedback from users implies that architects want only the high-level compliance items and links off to control details that team members can review. Include the list of control profiles or compliance audits that this architecture meets. For controls, provide "learn more" links to the control library that is published in the IBM Cloud Docs. For audits, provide information about the compliance item.
- -->
 
-<!--
-## Next steps
-{: #ra-vpc-next-steps}
-
-TODO: Decide what next steps to list, if any
-
-Optional section. Include links to your deployment guide or next steps to get started with the architecture. -->

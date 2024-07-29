@@ -55,17 +55,10 @@ production: true
 
 ---
 
-<!--
-The following line inserts all the attribute definitions. Don't delete.
--->
+
 {{site.data.keyword.attribute-definition-list}}
 
-<!--
-Don't include "reference architecture" in the following title.
-Specify a title based on a use case. If the architecture has a module
-or tile in the IBM Cloud catalog, match the title to the catalog. See
-https://test.cloud.ibm.com/docs/solution-as-code?topic=solution-as-code-naming-guidance.
--->
+
 
 # Watsonx.ai SaaS with Assistant and Governance
 {: #watsonx-ai-reference-architecture}
@@ -75,10 +68,6 @@ https://test.cloud.ibm.com/docs/solution-as-code?topic=solution-as-code-naming-g
 {: toc-compliance="FSCloud"}
 {: toc-version="1.1.1"}
 
-<!--
-The IDs, such as {: #title-id} are required for publishing this reference architecture in IBM Cloud Docs. Set unique IDs for each heading. Also include
-the toc attributes on the H1, repeating the values from the YAML header.
- -->
 
 The Watsonx.ai SaaS with Assistant and Governance deployable architecture is designed to automate the deployment and configuration of the {{site.data.keyword.IBM_notm}} watsonx platform in an {{site.data.keyword.Bluemix_notm}} account. The {{site.data.keyword.IBM_notm}} watsonx platform is made up of several services working together to offer AI capabilities to end users who can explore them using [{{site.data.keyword.IBM_notm}} watsonx projects](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/manage-projects.html?context=wx&audience=wdp). The automation also configures a {{site.data.keyword.IBM_notm}} watsonx starter project for an existing {{site.data.keyword.Bluemix_notm}} user.
 

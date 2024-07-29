@@ -61,11 +61,7 @@ The QuickStart variation of the VSI on VPC landing zone deployable architecture 
 
 ![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi-quickstart.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
 
-<!--
-TODO: Add the typical use case for the architecture.
-The use case might include the motivation for the architecture composition,
-business challenge, or target cloud environments.
--->
+
 ## Components
 {: #ra-vsi-qs-components}
 

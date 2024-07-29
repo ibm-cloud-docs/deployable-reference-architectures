@@ -63,11 +63,7 @@ Red Hat OpenShift Container Platform on VPC landing zone is a deployable archite
 
 ![Design requirements for Secure infrastructure on VPC for regulated industries](heat-map-deploy-arch-slz-ocp.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
 
-<!--
-TODO: Add the typical use case for the architecture.
-The use case might include the motivation for the architecture composition,
-business challenge, or target cloud environments.
--->
+
 
 ## Components
 {: #ra-ocp-components}
@@ -95,14 +91,7 @@ business challenge, or target cloud environments.
 | Securely connect to multiple networks with a site-to-site virtual private network | | | |
 {: caption="Table 2. Network security architecture decisions" caption-side="bottom"}
 
-<!--
-## Compliance
-{: #ra-ocp-compliance}
 
-TODO: Decide whether to include a compliance section, and if so, add that information
-
-_Optional section._ Feedback from users implies that architects want only the high-level compliance items and links off to control details that team members can review. Include the list of control profiles or compliance audits that this architecture meets. For controls, provide "learn more" links to the control library that is published in the IBM Cloud Docs. For audits, provide information about the compliance item.
--->
 
 ## Next steps
 {: #ra-ocp-next-steps}
