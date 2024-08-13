@@ -69,6 +69,7 @@ production: true
 {: toc-version="1.1.1"}
 
 
+
 The Watsonx.ai SaaS with Assistant and Governance deployable architecture is designed to automate the deployment and configuration of the {{site.data.keyword.IBM_notm}} watsonx platform in an {{site.data.keyword.Bluemix_notm}} account. The {{site.data.keyword.IBM_notm}} watsonx platform is made up of several services working together to offer AI capabilities to end users who can explore them using [{{site.data.keyword.IBM_notm}} watsonx projects](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/manage-projects.html?context=wx&audience=wdp). The automation also configures a {{site.data.keyword.IBM_notm}} watsonx starter project for an existing {{site.data.keyword.Bluemix_notm}} user.
 
 A typical use case is to establish a ready to use {{site.data.keyword.IBM_notm}} watsonx platform in an Enterprise account by granting administrator access
