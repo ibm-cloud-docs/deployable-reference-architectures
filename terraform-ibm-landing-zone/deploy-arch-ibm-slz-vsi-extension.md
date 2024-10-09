@@ -59,12 +59,12 @@ This deployable architecture extends an existing VPC deployable architecture by 
 ## Architecture diagram
 {: #ra-vsi-ext-architecture-diagram}
 
-![Architecture diagram for adding a VSI to a landing zone deployable architecture](vsi-extension.drawio.svg "Architecture diagram for adding a VSI to a landing zone deployable architecture"){: caption="Figure 1. VSI on existing landing zone - Extension" caption-side="bottom"}{: external download="vsi-extension.drawio.svg"}
+![Architecture diagram for adding a VSI to a landing zone deployable architecture](vsi-extension.drawio.svg "Architecture diagram for adding a VSI to a landing zone deployable architecture"){: caption="VSI on existing landing zone - Extension" caption-side="bottom"}{: external download="vsi-extension.drawio.svg"}
 
 ## Design requirements
 {: #ra-vsi-ext-design-requirements}
 
-![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi-extension.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
+![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi-extension.svg "Design requirements"){: caption="Scope of the design requirements" caption-side="bottom"}
 
 
 
@@ -78,7 +78,7 @@ This deployable architecture extends an existing VPC deployable architecture by 
 |-------------|-----------|--------------------|--------------------|
 | Create virtual server instances to support management | Management virtual server instances | Create a VPC virtual server instance that can be used for management and maintenance of your hosted application. Configure ACL and security group rules to allow access to IBM Cloud services, and workload and management VPCs. | |
 | * Demonstrate compliance with control requirements of the IBM Cloud Framework for Financial Services  \n * Set up network for all created services  \n * Isolate network for all created services  \n * Ensure all created services are interconnected | Secure landing zone components | Create a minimum set of required components for a secure landing zone | Create a modified set of required components for a secure landing zone in preset |
-{: caption="Table 1. Architecture decisions" caption-side="bottom"}
+{: caption="Architecture decisions" caption-side="bottom"}
 
 ### Key and password management architecture decisions
 {: #ra-vsi-ext-components-arch-key-pw}
@@ -86,7 +86,7 @@ This deployable architecture extends an existing VPC deployable architecture by 
 | Requirement | Component | Reasons for choice | Alternative choice |
 |-------------|-----------|--------------------|--------------------|
 | * Use public SSH key to access virtual server instances by using SSH | Public SSH key provided by customer | Ask customer to specify the key. Accept the input as secure parameter. | |
-{: caption="Table 3. Key and password management architecture decisions" caption-side="bottom"}
+{: caption="Key and password management architecture decisions" caption-side="bottom"}
 
 
 

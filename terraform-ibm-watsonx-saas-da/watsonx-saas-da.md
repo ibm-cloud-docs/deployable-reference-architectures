@@ -81,7 +81,7 @@ In more advanced use cases, the deployable architecture can be used as part of a
 {: #architecture-diagram}
 
 ![Architecture diagram for the Watsonx.ai SaaS with Assistant and Governance deployable architecture](watsonx-saas-da.svg "Architecture diagram for the Watsonx.ai SaaS with Assistant and Governance deployable architecture")
-{: caption="Figure 1. Watsonx.ai SaaS with Assistant and Governance deployable architecture" caption-side="bottom"}{: external download="watsonx-saas-da.svg"}
+{: caption="Watsonx.ai SaaS with Assistant and Governance deployable architecture" caption-side="bottom"}{: external download="watsonx-saas-da.svg"}
 
 The Watsonx.ai SaaS with Assistant and Governance deployable architecture creates the services shown in the `watsonx services` section and an instance of {{site.data.keyword.cos_full_notm}} in a target {{site.data.keyword.Bluemix_notm}} account, resource group, and region. Then, it automatically configures a IBM watsonx starter project that grants access to an existing {{site.data.keyword.Bluemix_notm}} user, for example, an AI researcher. As a result, that user can log into the {{site.data.keyword.IBM_notm}} watsonx starter project, and begin working.
 
@@ -108,7 +108,7 @@ Additional services from the optional section can be installed at any time after
 ## Design concepts
 {: #design-concepts}
 
-![Design requirements for Watsonx.ai SaaS with Assistant and Governance deployable architecture](heat-map.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
+![Design requirements for Watsonx.ai SaaS with Assistant and Governance deployable architecture](heat-map.svg "Design requirements"){: caption="Scope of the design requirements" caption-side="bottom"}
 
 ## Requirements
 {: #requirements}
@@ -122,7 +122,7 @@ The following table outlines the requirements that are addressed in this archite
 | Security           | * Protect boundaries against denial of service and application layer attacks.  \n * Encrypt all application data in transit and at rest to protect from unauthorized disclosure.  \n * Encrypt all security data (operational and audit logs) to protect from unauthorized disclosure.  \n * Protect secrets through their entire lifecycle and secure them using access control measures. |
 | Resiliency         | * Support application availability targets and business continuity policies.  \n * Ensure availability of the services in the event of planned and unplanned outages  \n * Provide highly available storage artificial intelligence assets. |
 | Service Management | Monitor audit logs to track changes and detect potential security problems. |
-{: caption="Table 1. Requirements" caption-side="bottom"}
+{: caption="Requirements" caption-side="bottom"}
 
 ## Components
 {: #components}
@@ -135,7 +135,7 @@ The following table outlines the services used in the architecture for each aspe
 | Security | IAM | {{site.data.keyword.iamlong}} authenticates and authorizes any user interaction. |
 | Resiliency | All {{site.data.keyword.Bluemix_notm}} provisioned services | Fully managed services that provide resiliency and high availability. |
 | Application platforms | {{site.data.keyword.IBM_notm}} watsonx platform | End users interact with the {{site.data.keyword.IBM_notm}} watsonx platform to manage artificial intelligence assets and data. |
-{: caption="Table 2. Components" caption-side="bottom"}
+{: caption="Components" caption-side="bottom"}
 
 ## Next steps
 {: #next-steps}

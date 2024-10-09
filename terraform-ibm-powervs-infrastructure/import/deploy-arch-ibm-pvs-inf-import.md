@@ -33,4 +33,4 @@ This solution helps to install the deployable architecture ['Power Virtual Serve
 ## Architecture diagram
 {: #iw-architecture-diagram}
 
-![Architecture diagram for 'Power Virtual Server with VPC landing zone' - variation 'Import'.](deploy-arch-ibm-pvs-inf-import.svg "Architecture diagram"){: caption="Figure 1. Power Virtual Server with VPC landing zone 'Import' variation" caption-side="bottom"}{: external download="deploy-arch-ibm-pvs-inf-import.svg"}
+![Architecture diagram for 'Power Virtual Server with VPC landing zone' - variation 'Import'.](deploy-arch-ibm-pvs-inf-import.svg "Architecture diagram"){: caption="Power Virtual Server with VPC landing zone 'Import' variation" caption-side="bottom"}{: external download="deploy-arch-ibm-pvs-inf-import.svg"}

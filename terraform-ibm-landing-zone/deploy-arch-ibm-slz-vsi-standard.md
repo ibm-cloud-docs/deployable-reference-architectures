@@ -59,12 +59,12 @@ The Standard variation of the VSI on VPC landing zone deployable architecture is
 ## Architecture diagram
 {: #ra-vsi-architecture-diagram}
 
-![Architecture diagram for the Standard variation of VSI on VPC landing zone](vsi-vsi.drawio.svg "Architecture diagram for the Standard variation of the VPC landing zone deployable architecture"){: caption="Figure 1. Standard variation of VSI on VPC landing zone" caption-side="bottom"}{: external download="vsi-vsi.drawio.svg"}
+![Architecture diagram for the Standard variation of VSI on VPC landing zone](vsi-vsi.drawio.svg "Architecture diagram for the Standard variation of the VPC landing zone deployable architecture"){: caption="Standard variation of VSI on VPC landing zone" caption-side="bottom"}{: external download="vsi-vsi.drawio.svg"}
 
 ## Design requirements
 {: #ra-vsi-design-requirements}
 
-![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
+![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi.svg "Design requirements"){: caption="Scope of the design requirements" caption-side="bottom"}
 
 
 
@@ -81,7 +81,7 @@ The Standard variation of the VSI on VPC landing zone deployable architecture is
 | Create virtual server instances to support management | Management virtual server instances | Create a VPC virtual server instance that can be used for management and maintenance of your hosted application. Configure ACL and security group rules to allow access to IBM Cloud services, and workload and management VPCs. | |
 | Create virtual server instances to support hosted applications | Workload virtual server instances | Create a VPC virtual server instance that can act as a workload server to support hosted applications. Configure ACL and security group rules to allow access to IBM Cloud services, workload and management VPCs. | |
 | * Demonstrate compliance with control requirements of the IBM Cloud Framework for Financial Services  \n * Set up network for all created services  \n * Isolate network for all created services  \n * Ensure all created services are interconnected | Secure landing zone components | Create a minimum set of required components for a secure landing zone | Create a modified set of required components for a secure landing zone in preset |
-{: caption="Table 1. Architecture decisions" caption-side="bottom"}
+{: caption="Architecture decisions" caption-side="bottom"}
 
 ### Network security architecture decisions
 {: #ra-vsi-components-arch-net-sec}
@@ -93,7 +93,7 @@ The Standard variation of the VSI on VPC landing zone deployable architecture is
 | Load VPN configuration to simplify VPN setup | VPNs | VPN configuration is the responsibility of the customer | |
 | Collect and store Internet Protocol (IP) traffic information with Activity Tracker and Flow Logs | Activity Tracker | | |
 | Securely connect to multiple networks with a site-to-site virtual private network | | | |
-{: caption="Table 2. Network security architecture decisions" caption-side="bottom"}
+{: caption="Network security architecture decisions" caption-side="bottom"}
 
 ### Key and password management architecture decisions
 {: #ra-vsi-components-arch-key-pw}
@@ -101,7 +101,7 @@ The Standard variation of the VSI on VPC landing zone deployable architecture is
 | Requirement | Component | Reasons for choice | Alternative choice |
 |-------------|-----------|--------------------|--------------------|
 | * Use public SSH key to access virtual server instances by using SSH | Public SSH key provided by customer | Ask customer to specify the key. Accept the input as secure parameter. | |
-{: caption="Table 3. Key and password management architecture decisions" caption-side="bottom"}
+{: caption="Key and password management architecture decisions" caption-side="bottom"}
 
 
 
