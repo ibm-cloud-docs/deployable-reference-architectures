@@ -55,12 +55,12 @@ For more details on DevSecOps with Continuous Delivery. See this topic: [DevSecO
 ## Architecture diagram
 {: #architecture-diagram}
 
-![DevSecOps Application Lifecycle Management Arch Diagram](diagram-deploy-arch-ibm-devsecops-alm-diagram.svg "Architecture diagram for DevSecOps Application Lifecycle Management Deployable Architecture "){: caption="Architecture diagram for a set of DevSecOps CI/CD/CC toolchains using the Continuous Delivery service on IBM Cloud" caption-side="bottom"}{: external download="diagram-deploy-arch-ibm-devsecops-alm-diagram.svg"}
+![DevSecOps Application Lifecycle Management Arch Diagram](diagram-deploy-arch-ibm-devsecops-alm-diagram.svg "Architecture diagram for DevSecOps Application Lifecycle Management Deployable Architecture "){: caption="Figure 1. Architecture diagram for a set of DevSecOps CI/CD/CC toolchains using the Continuous Delivery service on IBM Cloud" caption-side="bottom"}{: external download="diagram-deploy-arch-ibm-devsecops-alm-diagram.svg"}
 
 ## Design requirements
 {: #design-requirements}
 
-![Design requirements for the DevSecOps Application Lifecycle Management](heat-map-deploy-arch-ibm-devsecops-alm.svg "Design requirements"){: caption="Scope of the design requirements" caption-side="bottom"}
+![Design requirements for the DevSecOps Application Lifecycle Management](heat-map-deploy-arch-ibm-devsecops-alm.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
 
 
 ## Components
@@ -74,7 +74,7 @@ The following components are included that support the requirements. Alternative
 |     Continuous Integration Toolchain        |    Toolchain Service       |        The continuous integration toolchain and pipelines tests, scans and builds the deployable artifacts from the application repositories.             |                    |
 |     Continuous Deployment Toolchain         |    Toolchain Service       |        The continuous deployment toolchain and pipeline generates all of the evidence and change request summary content. The pipeline deploys the build artifacts to an environment, such as staging or production, and then collects, creates, and uploads all existing log files, evidence, and artifacts to the evidence locker.           |                    |
 |     Continuous Compliance Toolchain         |    Toolchain Service       |        The continuous compliance toolchain and pipeline periodically scans the deployed artifacts and their source repositories.            |                    |
-{: caption="Components" caption-side="bottom"}
+{: caption="Table 1. Components" caption-side="bottom"}
 
 ## Next steps
 {: #next-steps}

@@ -54,12 +54,12 @@ The QuickStart variation of the VSI on VPC landing zone deployable architecture 
 ## Architecture diagram
 {: #ra-vsi-qs-architecture-diagram}
 
-![Architecture diagram for the QuickStart variation of VSI on VPC landing zone](vsi-quickstart.drawio.svg "Architecture diagram of VSI on VPC landing zone deployable architecture"){: caption="QuickStart variation of VSI on VPC landing zone" caption-side="bottom"}{: external download="vsi-quickstart.drawio.svg"}
+![Architecture diagram for the QuickStart variation of VSI on VPC landing zone](vsi-quickstart.drawio.svg "Architecture diagram of VSI on VPC landing zone deployable architecture"){: caption="Figure 1. QuickStart variation of VSI on VPC landing zone" caption-side="bottom"}{: external download="vsi-quickstart.drawio.svg"}
 
 ## Design requirements
 {: #ra-vsi-qs-qs-design-requirements}
 
-![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi-quickstart.svg "Design requirements"){: caption="Scope of the design requirements" caption-side="bottom"}
+![Design requirements for VSI on VPC landing zone](heat-map-deploy-arch-slz-vsi-quickstart.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
 
 
 ## Components
@@ -75,7 +75,7 @@ The QuickStart variation of the VSI on VPC landing zone deployable architecture 
 | Create a virtual server instance to support hosted applications | Workload virtual server instance | Create a VPC virtual server instance that can act as a workload server to support hosted applications. Configure ACL and security group rules allow access to IBM Cloud services, Workload and Management VPC's | |
 | Create a virtual server instance as the only management access point to the environment | Jump box host VPC instance | Create a Linux VPC instance that acts as a jump box host. Configure ACL and security group rules to allow SSH connectivity (port 22). Add a public IP address to the VPC instance. | |
 | * Set up network for all created services  \n * Isolate network for all created services  \n * Ensure all created services are interconnected | Secure landing zone components | Create a minimum set of required components for a secure landing zone | Create a modified set of required components for a secure landing zone in preset |
-{: caption="Architecture decisions" caption-side="bottom"}
+{: caption="Table 1. Architecture decisions" caption-side="bottom"}
 
 ### Network security architecture decisions
 {: #ra-vsi-qs-components-arch-net-sec}
@@ -85,7 +85,7 @@ The QuickStart variation of the VSI on VPC landing zone deployable architecture 
 | * Isolate management VPC and allow SSH network connections from public network  \n * All other connections from or to management VPC are forbidden except for IBM services and VPC | ACL and security group rules in management VPC|Open following ports by default: 22 (for limited number of IPs)  \n All ports to other VPCs are open |More ports might be opened in preset or added manually after deployment |
 | * Isolate workload VPC and allow only a limited number of network connections  \n * All other connections from or to workload VPC are forbidden | ACL and security group rules in workload VPC | Allow connectivity for IBM Cloud services, Workload VPC and Management VPC | More ports might be opened in preset or added manually after deployment |
 | Enable floating IP on jump box host | Floating IPs on jump box host in management VPC|Use floating IP on jump box host for administration access | |
-{: caption="Network security architecture decisions" caption-side="bottom"}
+{: caption="Table 2. Network security architecture decisions" caption-side="bottom"}
 
 ### Key and password management architecture decisions
 {: #ra-vsi-qs-components-arch-key-pw}
@@ -93,4 +93,4 @@ The QuickStart variation of the VSI on VPC landing zone deployable architecture 
 | Requirement | Component | Reasons for choice | Alternative choice |
 |-------------|-----------|--------------------|--------------------|
 | * Use public SSH key to access virtual server instances by using SSH | Public SSH key provided by customer | Ask customer to specify the key. Accept the input as secure parameter. | |
-{: caption="Key and passwords management architecture decisions" caption-side="bottom"}
+{: caption="Table 3. Key and passwords management architecture decisions" caption-side="bottom"}

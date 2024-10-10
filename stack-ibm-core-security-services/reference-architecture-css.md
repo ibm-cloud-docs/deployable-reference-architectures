@@ -68,7 +68,7 @@ This reference architecture showcases how these services form a foundational sec
 
 The following diagram represents the architecture for the IBM Cloud Essential Security and Observability Services deployable architecture on and reuses the [best practices](/docs/framework-financial-services?topic=framework-financial-services-about) for {{site.data.keyword.framework-fs_full}}.
 
-![Architecture.](core-security-services-architecture.svg "Architecture"){: caption="Architecture diagram" caption-side="bottom"}{: external download="core-security-services-architecture.svg"}
+![Architecture.](core-security-services-architecture.svg "Architecture"){: caption="Figure 1. Architecture diagram" caption-side="bottom"}{: external download="core-security-services-architecture.svg"}
 
 The architecture is anchored by three fundamental services: {{site.data.keyword.keymanagementserviceshort}}, {{site.data.keyword.secrets-manager_short}}, and IBM Cloud Security Services and {{site.data.keyword.sysdigsecure_full_notm}}. These services provide integration endpoints for any customer workload that is hosted on {{site.data.keyword.cloud_notm}}.
 
@@ -96,7 +96,7 @@ The Security Compliance Center instance is preconfigured to scan all resources p
 - Resiliency: High availability
 - Service management: Monitoring, logging, auditing and tracking, automated deployment
 
-![heatmap](heat-map-ccs.svg "Current diagram"){: caption="Architecture design scope" caption-side="bottom"}{: external download="heat-map-ccs.svg"}
+![heatmap](heat-map-ccs.svg "Current diagram"){: caption="Figure 2. Architecture design scope" caption-side="bottom"}{: external download="heat-map-ccs.svg"}
 
 ## Requirements
 {: #requirements}
@@ -109,7 +109,7 @@ The following table outlines the requirements that are addressed in this archite
 | Security           | Encrypt all application data in transit and at rest to protect it from unauthorized disclosure. \n Encrypt all security data (operational and audit logs) to protect from unauthorized disclosure. \n Encrypt all data using customer-managed keys to meet regulatory compliance requirements for additional security and customer control. \n Protect secrets through their entire lifecycle and secure them using access control measures. |
 | Resiliency         | Support application availability targets and business continuity policies. \n Ensure availability of the application during planned and unplanned outages. \n Back up application data to enable recovery during unplanned outages. \n Provide highly available storage for security data (logs) and backup data. |
 | Service Management | Monitor system and application health metrics and logs to detect issues that might impact the availability of the application. \n Generate alerts/notifications about issues that might impact the availability of applications to trigger appropriate responses to minimize downtime. \n Monitor audit logs to track changes and detect potential security problems. \n Provide a mechanism to identify and send notifications about issues that are found in audit logs. |
-{: caption="Requirements" caption-side="bottom"}
+{: caption="Table 1. Requirements" caption-side="bottom"}
 
 ## Components
 {: #components}
@@ -128,7 +128,7 @@ The following table outlines the products or services used in the architecture f
 | Service Management | [{{site.data.keyword.monitoringlong_notm}}](https://cloud.ibm.com/docs/monitoring?topic=monitoring-about-monitor) | Apps and operational monitoring |
 |  | [{{site.data.keyword.loganalysislong_notm}}](https://cloud.ibm.com/docs/log-analysis?topic=log-analysis-getting-started) | Apps and operational logs |
 |  | [{{site.data.keyword.atracker_short}}](https://cloud.ibm.com/docs/activity-tracker?topic=activity-tracker-getting-started) | Audit logs |
-{: caption="Components" caption-side="bottom"}
+{: caption="Table 2. Components" caption-side="bottom"}
 
 ## Compliance
 {: #compliance}

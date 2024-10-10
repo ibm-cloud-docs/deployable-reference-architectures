@@ -58,12 +58,12 @@ IBM Cloud Flow Logs for VPC enables the collection and storage of information ab
 ## Architecture diagram
 {: #ra-vpc-architecture-diagram}
 
-![Architecture diagram for the Standard variation of VPC landing zone](vpc.drawio.svg "Architecture diagram of VPC landing zone deployable architecture"){: caption="Standard variation of VPC landing zone" caption-side="bottom"}{: external download="vpc.drawio.svg"}
+![Architecture diagram for the Standard variation of VPC landing zone](vpc.drawio.svg "Architecture diagram of VPC landing zone deployable architecture"){: caption="Figure 1. Standard variation of VPC landing zone" caption-side="bottom"}{: external download="vpc.drawio.svg"}
 
 ## Design requirements
 {: #ra-vpc-qs-design-requirements}
 
-![Design requirements for VPC landing zone](heat-map-deploy-arch-slz-vpc-standard.svg "Design requirements"){: caption="Scope of the design requirements" caption-side="bottom"}
+![Design requirements for VPC landing zone](heat-map-deploy-arch-slz-vpc-standard.svg "Design requirements"){: caption="Figure 2. Scope of the design requirements" caption-side="bottom"}
 
 
 ## Components
@@ -77,7 +77,7 @@ IBM Cloud Flow Logs for VPC enables the collection and storage of information ab
 | * Provide infrastructure/application administration access to monitor, operate, and maintain the environment.  \n * Limit the number of infrastructure/application administration entry points to ensure security audit. | Management VPC service | | |
 | * Provide infrastructure for service management components like backup, monitoring, IT service management, shared storage  \n * Ensure you can reach all IBM Cloud and on-premises services | Workload VPC service | | |
 | * Set up network for all created services  \n * Isolate network for all created services  \n * Ensure all created services are interconnected | Secure landing zone components | Create a minimum set of required components for a secure landing zone | Create a modified set of required components for a secure landing zone in preset |
-{: caption="Architecture decisions" caption-side="bottom"}
+{: caption="Table 1. Architecture decisions" caption-side="bottom"}
 
 ### Network security architecture decisions
 {: #ra-vpc-components-arch-net-sec}
@@ -87,4 +87,4 @@ IBM Cloud Flow Logs for VPC enables the collection and storage of information ab
 | * Isolate management VPC and allow only a limited number of network connections  \n * All other connections from or to management VPC are forbidden | ACL and security group rules in management VPC| | More ports might be opened in preset or added manually after deployment |
 | * Isolate workload VPC and allow only a limited number of network connections  \n * All other connections from or to workload VPC are forbidden | ACL and security group rules in workload VPC | | More ports might be opened in preset or added manually after deployment |
 | Load VPN configuration to simplify VPN setup | VPNs | VPN configuration is the responsibility of the customer | |
-{: caption="Network security architecture decisions" caption-side="bottom"}
+{: caption="Table 2. Network security architecture decisions" caption-side="bottom"}
