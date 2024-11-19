@@ -11,7 +11,8 @@ toc:
     - navgroup:
         id: architecture
         topics:
-          - stack-ibm-core-security-services/reference-architecture-css.md
+          - >-
+            stack-ibm-core-security-services/reference-architecture-css.md
           - >-
             terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp-quickstart.md
