@@ -23,8 +23,6 @@ toc:
           - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
           - terraform-ibm-mas/mas-architecture.md
           - >-
-            terraform-ibm-powervs-infrastructure/import/deploy-arch-ibm-pvs-inf-import.md
-          - >-
             terraform-ibm-powervs-infrastructure/standard-extend/deploy-arch-ibm-pvs-inf-standard-extend.md
           - >-
             terraform-ibm-powervs-infrastructure/standard-plus-vsi/deploy-arch-ibm-pvs-inf-standard-plus-vsi.md
