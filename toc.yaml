@@ -12,6 +12,8 @@ toc:
         id: architecture
         topics:
           - stack-ibm-core-security-services/reference-architecture-css.md
+          - terraform-ibm-base-ocp-vpc/deploy-arch-ibm-ocp-fully-configurable.md
+          - terraform-ibm-base-ocp-vpc/deploy-arch-ibm-ocp-quickstart.md
           - terraform-ibm-cloudability-onboarding/cloudability-enablement.md
           - >-
             terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
