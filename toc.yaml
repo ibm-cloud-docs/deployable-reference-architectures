@@ -8,32 +8,25 @@ toc:
     path: deployable-reference-architectures
     label: Deployable reference architectures
   entries:
-    - navgroup:
-        id: architecture
-        topics:
-          - stack-ibm-core-security-services/reference-architecture-css.md
-          - terraform-ibm-base-ocp-vpc/deploy-arch-ibm-ocp-fully-configurable.md
-          - terraform-ibm-base-ocp-vpc/deploy-arch-ibm-ocp-quickstart.md
-          - terraform-ibm-cloudability-onboarding/cloudability-enablement.md
-          - >-
-            terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
-          - >-
-            terraform-ibm-landing-zone-vpc/deploy-arch-ibm-vpc-fully-configurable.md
-          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp-quickstart.md
-          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp.md
-          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vpc-standard.md
-          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-extension.md
-          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-quickstart.md
-          - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
-          - terraform-ibm-mas/mas-architecture.md
-          - >-
-            terraform-ibm-powervs-infrastructure/standard-openshift/deploy-arch-ibm-pvs-inf-standard-openshift.md
-          - >-
-            terraform-ibm-powervs-infrastructure/standard-plus-vsi/deploy-arch-ibm-pvs-inf-standard-plus-vsi.md
-          - >-
-            terraform-ibm-powervs-infrastructure/standard/deploy-arch-ibm-pvs-inf-standard.md
-          - >-
-            terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
-          - >-
-            terraform-ibm-powervs-sap/sap-s4hana-bw4hana/deploy-arch-ibm-pvs-sap-s4hana-bw4hana.md
-          - terraform-ibm-watsonx-saas-da/watsonx-saas-da.md
+  - navgroup:
+      id: architecture
+      topics:
+      - stack-ibm-core-security-services/reference-architecture-css.md
+      - terraform-ibm-base-ocp-vpc/deploy-arch-ibm-ocp-fully-configurable.md
+      - terraform-ibm-base-ocp-vpc/deploy-arch-ibm-ocp-quickstart.md
+      - terraform-ibm-cloudability-onboarding/cloudability-enablement.md
+      - terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
+      - terraform-ibm-landing-zone-vpc/deploy-arch-ibm-vpc-fully-configurable.md
+      - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp-quickstart.md
+      - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp.md
+      - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vpc-standard.md
+      - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-extension.md
+      - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-quickstart.md
+      - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
+      - terraform-ibm-mas/mas-architecture.md
+      - terraform-ibm-powervs-infrastructure/standard-openshift/deploy-arch-ibm-pvs-inf-standard-openshift.md
+      - terraform-ibm-powervs-infrastructure/standard-plus-vsi/deploy-arch-ibm-pvs-inf-standard-plus-vsi.md
+      - terraform-ibm-powervs-infrastructure/standard/deploy-arch-ibm-pvs-inf-standard.md
+      - terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
+      - terraform-ibm-powervs-sap/sap-s4hana-bw4hana/deploy-arch-ibm-pvs-sap-s4hana-bw4hana.md
+      - terraform-ibm-watsonx-saas-da/watsonx-saas-da.md
