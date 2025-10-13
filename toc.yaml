@@ -24,6 +24,7 @@ toc:
       - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-quickstart.md
       - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vsi-standard.md
       - terraform-ibm-mas/mas-architecture.md
+      - terraform-ibm-observability-da/reference-architecture-observability.md
       - terraform-ibm-powervs-infrastructure/standard-openshift/deploy-arch-ibm-pvs-inf-standard-openshift.md
       - terraform-ibm-powervs-infrastructure/standard-plus-vsi/deploy-arch-ibm-pvs-inf-standard-plus-vsi.md
       - terraform-ibm-powervs-infrastructure/standard/deploy-arch-ibm-pvs-inf-standard.md
