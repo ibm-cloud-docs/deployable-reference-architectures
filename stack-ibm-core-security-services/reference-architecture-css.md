@@ -115,15 +115,15 @@ The following table outlines the products or services used in the architecture f
 
 | Aspects | Architecture components | How the component is used |
 | -------------- | -------------- | -------------- |
-| Storage | [{{site.data.keyword.cos_full_notm}}](/docs/cloud-object-storage?topic=cloud-object-storage-about-cloud-object-storage) | Web app static content, backups, logs (application, operational, and audit logs) |
-| Networking | [Virtual Private Endpoint (VPE)](/docs/vpc?topic=vpc-about-vpe) | For private network access to {{site.data.keyword.cloud_notm}} services, for example, {{site.data.keyword.keymanagementserviceshort}} and {{site.data.keyword.secrets-manager_short}}. |
-| Security | [IAM](/docs/account?topic=account-cloudaccess) | {{site.data.keyword.iamshort}} |
-|  | [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-about) | A full-service encryption solution that allows data to be secured and stored in {{site.data.keyword.cloud_notm}} |
-|  | [{{site.data.keyword.secrets-manager_short}}](/docs/secrets-manager?topic=secrets-manager-getting-started#getting-started) | Certificate and Secrets Management |
-|  | [{{site.data.keyword.sysdigsecure_full_notm}}](/docs/workload-protection?topic=workload-protection-getting-started) | Implement controls for secure data and workload deployments, and assess security and compliance posture |
-| Service Management | [{{site.data.keyword.monitoringlong_notm}}](/docs/monitoring?topic=monitoring-about-monitor) | Apps and operational monitoring |
-|  | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started) | Apps and operational logs |
-|  | [{{site.data.keyword.atracker_short}}](/docs/atracker?topic=atracker-getting-started) | Audit logs |
+| Storage | [{{site.data.keyword.cos_full_notm}}](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-about-cloud-object-storage) | Web app static content, backups, logs (application, operational, and audit logs) |
+| Networking | [Virtual Private Endpoint (VPE)](https://cloud.ibm.com/docs/vpc?topic=vpc-about-vpe) | For private network access to {{site.data.keyword.cloud_notm}} services, for example, {{site.data.keyword.keymanagementserviceshort}} and {{site.data.keyword.secrets-manager_short}}. |
+| Security | [IAM](https://cloud.ibm.com/docs/account?topic=account-cloudaccess) | {{site.data.keyword.iamshort}} |
+|  | [{{site.data.keyword.keymanagementserviceshort}}](https://cloud.ibm.com/docs/key-protect?topic=key-protect-about) | A full-service encryption solution that allows data to be secured and stored in {{site.data.keyword.cloud_notm}} |
+|  | [{{site.data.keyword.secrets-manager_short}}](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-getting-started#getting-started) | Certificate and Secrets Management |
+|  | [{{site.data.keyword.sysdigsecure_full_notm}}](https://cloud.ibm.com/docs/workload-protection?topic=workload-protection-getting-started) | Implement controls for secure data and workload deployments, and assess security and compliance posture |
+| Service Management | [{{site.data.keyword.monitoringlong_notm}}](https://cloud.ibm.com/docs/monitoring?topic=monitoring-about-monitor) | Apps and operational monitoring |
+|  | [{{site.data.keyword.logs_full_notm}}](https://cloud.ibm.com/docs/cloud-logs?topic=cloud-logs-getting-started) | Apps and operational logs |
+|  | [{{site.data.keyword.atracker_short}}](https://cloud.ibm.com/docs/atracker?topic=atracker-getting-started) | Audit logs |
 {: caption="Table 2. Components" caption-side="bottom"}
 
 ## Compliance
