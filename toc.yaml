@@ -17,6 +17,8 @@ toc:
       - terraform-ibm-cloudability-onboarding/cloudability-enablement.md
       - terraform-ibm-devsecops-alm/deploy-arch-ibm-devsecops-alm.md
       - terraform-ibm-landing-zone-vpc/deploy-arch-ibm-vpc-fully-configurable.md
+      - terraform-ibm-landing-zone-vsi/deploy-arch-ibm-vsi-fully-configurable.md
+      - terraform-ibm-landing-zone-vsi/deploy-arch-ibm-vsi-quickstart.md
       - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp-quickstart.md
       - terraform-ibm-landing-zone/deploy-arch-ibm-slz-ocp.md
       - terraform-ibm-landing-zone/deploy-arch-ibm-slz-vpc-standard.md
