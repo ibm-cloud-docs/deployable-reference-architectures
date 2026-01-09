@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2025
-lastupdated: "2025-12-09"
+  years: 2024, 2025, 2026
+lastupdated: "2026-01-09"
 keywords:
 subcollection: deployable-reference-architectures
 authors:
@@ -13,7 +13,7 @@ image_source: https://github.com/terraform-ibm-modules/terraform-ibm-powervs-wor
 use-case: ITServiceManagement
 industry: Technology
 content-type: reference-architecture
-version: v4.1.0
+version: v4.1.2
 compliance:
 ---
 
@@ -25,7 +25,7 @@ compliance:
 {: toc-industry="Technology"}
 {: toc-use-case="ITServiceManagement"}
 {: toc-compliance=""}
-{: toc-version="v4.1.0"}
+{: toc-version="v4.1.2"}
 
 
 This solution deploys an IBM® Power Virtual Server (PowerVS) workspace using [terraform-ibm-powervs-workspace](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-workspace) in the `solutions/standard` directory.
