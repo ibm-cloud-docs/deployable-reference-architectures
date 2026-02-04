@@ -1,7 +1,6 @@
 ---
 
 # The YAML header is required. For more information about the YAML header, see
-# https://test.cloud.ibm.com/docs/writing?topic=writing-reference-architectures
 
 copyright:
   years: 2024
@@ -15,11 +14,10 @@ authors:
   - name: Michele Crudele
 
 # The release that the reference architecture describes
-version: 1.9.38
+version: 2.1.2
 
 # Use if the reference architecture has deployable code.
 # Value is the URL to land the user in the IBM Cloud catalog details page for the deployable architecture.
-# See https://test.cloud.ibm.com/docs/get-coding?topic=get-coding-deploy-button
 deployment-url: https://cloud.ibm.com/catalog/8bfb1293-8b85-4d3f-a89f-015d0a0719df/architecture/deploy-arch-ibm-watsonx-ai-saas-e8ad6597-8c1a-466a-8bb7-243a109daaa8
 
 docs: https://cloud.ibm.com/docs/watsonx-ai-saas-automation
@@ -31,16 +29,10 @@ related_links:
     url: 'https://cloud.ibm.com/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-overview'
     description: 'Description.'
 
-# use-case from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/topics/topics_flat_list.csv
 use-case: AIAndML
 
-# industry from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/industries/industries_flat_list.csv
 industry: Banking,FinancialSector,ITConsulting,Technology,Telecommunications
 
-# compliance from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/compliance_entities/compliance_entities_flat_list.csv
 compliance:
 
 content-type: reference-architecture
@@ -66,7 +58,7 @@ production: true
 {: toc-industry="Banking,FinancialSector,ITConsulting,Technology,Telecommunications"}
 {: toc-use-case="AIAndML"}
 {: toc-compliance="FSCloud"}
-{: toc-version="1.1.1"}
+{: toc-version="2.1.2"}
 
 
 

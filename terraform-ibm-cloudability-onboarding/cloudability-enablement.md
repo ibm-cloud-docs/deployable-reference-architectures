@@ -1,7 +1,6 @@
 ---
 
-# The YAML header is required. For more information about the YAML header, see
-# https://test.cloud.ibm.com/docs/writing?topic=writing-reference-architectures
+# The YAML header is required. For more information about the YAML header.
 
 copyright:
   years: 2024
@@ -16,11 +15,10 @@ authors:
     url: "https://github.com/chrisw-ibm"
 
 # The release that the reference architecture describes
-version: 1.0.x
+version: 1.2.4
 
 # Use if the reference architecture has deployable code.
 # Value is the URL to land the user in the IBM Cloud catalog details page for the deployable architecture.
-# See https://test.cloud.ibm.com/docs/get-coding?topic=get-coding-deploy-button
 deployment-url: https://cloud.ibm.com/catalog/cda5c842-ca01-468e-9614-0be561a792dc/architecture/deploy-arch-ibm-cloudability-1b3dcf22-f451-4443-b885-01ba1847443c-global
 
 docs: https://cloud.ibm.com/docs/track-spend-with-cloudability
@@ -32,16 +30,10 @@ related_links:
     url: 'https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-exporting-your-usage'
     description: 'Exporting your usage for integration into IBM Cloudability.'
 
-# use-case from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/topics/topics_flat_list.csv
 use-case: FinOps
 
-# industry from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/industries/industries_flat_list.csv
 industry: Banking,FinancialSector,ITConsulting,Technology,Telecommunications
 
-# compliance from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/compliance_entities/compliance_entities_flat_list.csv
 compliance: FSCloud
 
 content-type: reference-architecture
@@ -67,15 +59,13 @@ production: true
 {: toc-industry="Banking,FinancialSector,ITConsulting,Technology,Telecommunications"}
 {: toc-use-case="FinOps"}
 {: toc-compliance="FSCloud"}
-{: toc-version="1.0.x"}
+{: toc-version="1.2.4"}
 
 
 
 The Cloudability Enablement deployable architecture(DA) is designed to automate the deployment and configuration of adding your {{site.data.keyword.Bluemix_notm}} account or enterprise to an existing {{site.data.keyword.IBM_notm}} Cloudability account. Once enabled, {{site.data.keyword.Bluemix_notm}} billing data is made available to Cloudability allowing the tracking and analysis of {{site.data.keyword.Bluemix_notm}} expenses. Billing data is made available to Cloudability by granting access to a Cloud Object Storage (COS) bucket which contains the billing reports, which {{site.data.keyword.Bluemix_notm}} Billing updates daily.
 
 A typical use case is to aggregate billing data from multiple cloud vendors or multiple {{site.data.keyword.Bluemix_notm}} accounts within Cloudability. This aggregation helps create a complete view of a companies cloud expenses. Also, it allows costs to be allocated based on business division, unit, or team by using Cloudability business mappings (synthetic resource tagging). This helps drive accountability of cloud costs across your organization.
-
-
 
 ## Architecture diagram
 {: #architecture-diagram}
