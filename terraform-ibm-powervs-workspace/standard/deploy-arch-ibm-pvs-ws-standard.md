@@ -1,11 +1,12 @@
 ---
 copyright:
   years: 2024, 2025, 2026
-lastupdated: "2026-03-06"
+lastupdated: "2026-05-07"
 keywords:
 subcollection: deployable-reference-architectures
 authors:
   - name: Babitha Padiri
+  - name: Ole Ofterdinger
 production: true
 deployment-url:
 docs:
@@ -13,30 +14,31 @@ image_source: https://github.com/terraform-ibm-modules/terraform-ibm-powervs-wor
 use-case: ITServiceManagement
 industry: Technology
 content-type: reference-architecture
-version: v4.3.0
+version: v5.0.0
 compliance:
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
 # Power Virtual Server workspace
+
 {: #deploy-arch-ibm-pvs-ws-standard}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Technology"}
 {: toc-use-case="ITServiceManagement"}
 {: toc-compliance=""}
-{: toc-version="v4.3.0"}
-
+{: toc-version="v5.0.0"}
 
 This solution deploys an IBM® Power Virtual Server (PowerVS) workspace using [terraform-ibm-powervs-workspace](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-workspace) in the `solutions/standard` directory.
 
-
 ## Architecture diagram
+
 {: #standard-architecture-diagram}
 
 Architecture diagram for 'Power Virtual Server workspace' - Standard solution(deploy-arch-ibm-pvs-ws-standard.svg "Architecture diagram"){: caption="Figure 1. PowerVS workspace with optional subnets, images, and transit gateway" caption-side="bottom"}
 
 ## Design requirements
+
 {: #standard-design-requirements}
 
 Design requirements for 'Power Virtual Server workspace' - variation 'Standard'.(heat-map-deploy-arch-ibm-pvs-ws-standard.svg "Design requirements"){: caption="Figure 2. Scope of the solution requirements" caption-side="bottom"}
@@ -44,16 +46,18 @@ Design requirements for 'Power Virtual Server workspace' - variation 'Standard'.
 IBM Cloud® Power Virtual Servers (PowerVS) is a public cloud offering that an enterprise can use to establish its own private IBM Power computing environment on shared public cloud infrastructure. PowerVS is logically isolated from all other public cloud tenants and infrastructure components, This solution provides a simple, modular framework to deploy a PowerVS workspace with ssh key, optional networking and image import features from the IBM Cloud.
 
 ## Key solution features
+
 - Minimal configuration for quick deployment
 - Modular options for private subnets, public network, and transit gateway
 - Secure SSH key management
 - Optional import of custom images from COS
 
-
 ## Components
+
 {: #standard-components}
 
 ### PowerVS workspace architecture decisions
+
 {: #pvs-components-workspace}
 
 | Requirement | Component | Choice | Alternative choice |
@@ -67,8 +71,8 @@ IBM Cloud® Power Virtual Servers (PowerVS) is a public cloud offering that an e
 
 {: caption="Table 1. PowerVS workspace architecture decisions" caption-side="bottom"}
 
-
 ## Next steps
+
 {: #standard-next-steps}
 
 - Review and confirm input variables (region, resource group, COS locations, SSH public key).
