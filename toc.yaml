@@ -34,5 +34,6 @@ toc:
       - terraform-ibm-powervs-sap/sap-s4hana-bw4hana/deploy-arch-ibm-pvs-sap-s4hana-bw4hana.md
       - terraform-ibm-powervs-workspace/standard/deploy-arch-ibm-pvs-ws-standard.md
       - terraform-ibm-terraform-enterprise/deploy-terraform-enterprise.md
+      - terraform-ibm-vpc-sap/sap-ready-to-go/deploy-arch-ibm-vpc-sap-ready-to-go.md
       - terraform-ibm-vpc-sap/sap-s4hana-bw4hana/deploy-arch-ibm-vpc-sap-s4hana-bw4hana.md
       - terraform-ibm-watsonx-saas-da/watsonx-saas-da.md
